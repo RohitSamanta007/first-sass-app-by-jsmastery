@@ -1,3 +1,4 @@
+import { getSubjectColor } from '@/lib/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
@@ -12,6 +13,7 @@ interface CompanionCardType  {
 }
 
 function CompanionCard({id, name, topic, subject, duration, color}: CompanionCardType) {
+
   return (
     <article className='companion-card' style={{backgroundColor: color}}>
       <div className='flex justify-between items-center'>

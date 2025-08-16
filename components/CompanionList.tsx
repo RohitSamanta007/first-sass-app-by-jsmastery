@@ -13,8 +13,8 @@ interface CompanionsListPropsTypes{
 
 function CompanionList({title, companions, classNames}: CompanionsListPropsTypes) {
   return (
-    <article className={cn("companion-list", classNames)}>
-      <h2 className='font-bold text-3xl'>Recent Sessions</h2>
+    <article className={cn("companion-list mb-5", classNames)}>
+      <h2 className='font-bold text-3xl'>{title}</h2>
 
       <Table>
         

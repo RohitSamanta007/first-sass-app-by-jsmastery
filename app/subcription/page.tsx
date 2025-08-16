@@ -3,9 +3,9 @@ import React from 'react'
 
 function Subcription() {
   return (
-    <div>
+    <main>
         <PricingTable/>
-    </div>
+    </main>
   )
 }
 
